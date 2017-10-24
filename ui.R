@@ -1,5 +1,6 @@
 #UI.R
-#UI (User Interface) is just a web page that shows the app to the user. It is a HTML that you write using Shiny's functions. UI is responsible for creating the layout of the app and telling Shiny where things go.
+#UI (User Interface) is just a web page that shows the app to the user. It is a HTML that you write using Shiny's functions. 
+#UI is responsible for creating the layout of the app and telling Shiny where things go.
 library(shiny)
 library(ggplot2)
 library(dplyr)
