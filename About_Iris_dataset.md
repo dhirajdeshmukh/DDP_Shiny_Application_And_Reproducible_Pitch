@@ -4,10 +4,10 @@
  To use this data to create Shiny App, a data frame with 150 cases and 5 variables named Sepal.Length, Sepal.Width, Petal.Length, Petal.Width, and Species are used.
  To access the data, the datasets package needs to be loaded and run the following command in R console.
  
- #####library(datasets) 
- #####data(iris) 
- #####summary(iris) 
- #####head(iris)
+ ##### library(datasets) 
+ ##### data(iris) 
+ ##### summary(iris) 
+ ##### head(iris)
    
    ###### This dataset is also copied into Data/Iris.xlsx file in github.
    
