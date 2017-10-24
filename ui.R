@@ -1,23 +1,29 @@
+#UI.R
 library(shiny)
 library(ggplot2)
 library(dplyr)
 
-bcl <- read.csv("bcl-data.csv", stringsAsFactors = FALSE)
-
-ui <- fluidPage(
-  titlePanel("BC Liquor Store prices"),
-  sidebarLayout(
-    sidebarPanel(
-      sliderInput("priceInput", "Price", 0, 100, c(25, 40), pre = "$"),
-      radioButtons("typeInput", "Product type",
-                   choices = c("BEER", "REFRESHMENT", "SPIRITS", "WINE"),
-                   selected = "WINE"),
-      uiOutput("countryOutput")
-    ),
-    mainPanel(
-      plotOutput("coolplot"),
-      br(), br(),
-      tableOutput("results")
-    )
+shinyUI(fluidPage(
+  
+  #fluid page for dynamically adapting to screens of different resolutions.  
+  titlePanel("Iris Dataset"),  
+  sidebarLayout(    
+    sidebarPanel(      
+  #implementing radio buttons      
+      radioButtons("p", "Select column of iris dataset:",
+                   list("Sepal.Length"='a', "Sepal.Width"='b', "Petal.Length"='c', "Petal.Width"='d')),
+      
+  #slider input for bins of histogram      
+      sliderInput("bins",
+                  "Number of bins:", 
+                  min = 1,
+                  max = 50,
+                  value = 30)  
+  # Show a plot of the generated distribution    
+    ),    
+     mainPanel(      
+         plotOutput("distPlot")    
+    )  
   )
+)
 )
