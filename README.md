@@ -1,15 +1,17 @@
 # Developing Data Product Week 4 Assignement - Shiny Application And Reproducible Pitch
-This assignment is divided into FOUR major sections.
+This assignment is divided into THREE major sections.
 1. Create Shiny App (using separate ui.R and SERVER.R files)
 2. Deploy the Shiny App on server.
 3. Create presentation (host on github or Rpubs) of 5 pages for the Shiny App.
- -- 4. Steps to execute
+4. Steps to execute
 
-## Create Shiny App (using separate ui.R and SERVER.R files)
+## Create Shiny App (using separate ui.R and server.R files)
    The shiny App named "iris" is created. The ui.R and SERVER.R files can be located at the below links provided -
    ui.R link -
-   SERVER.R link - 
-   Dataset for Shiny App: Please refer to About_Iris_dataset.md file in github to detail about the Iris dataset.    # copy this section in file named About_Iris_dataset.md in github
+   server.R link - 
+
+.. Dataset for Shiny App: Please refer to About_Iris_dataset.md file in github to detail about the Iris dataset.    
+#copy this section in file named About_Iris_dataset.md in github
  The dataset used in creating the App is the Iris Flower data set. This dataset was first introduced by British statistician and Biologist Ronald Fisher.   It is aka Fisher's Iris data set. Data set consist of 50 samples from each of 3 species of Iris (Iris setosa, Iris virginica and Iris versicolor). And   four features were measured from each sample: lengh and width of Sepals and Petals of Flowers in centimeters.   To use this data to create Shiny App, a data frame with 150 cases and 5 variables named Sepal.Length, Sepal.Width, Petal.Length, Petal.Width, and Species are used.
    To access the data, the datasets package needs to be loaded and run the following command in R console.
  library(datasets) data(iris) summary(iris) head(iris)
