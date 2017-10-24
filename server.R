@@ -1,36 +1,40 @@
+
+#SERVER.R
+# Server is responsible for the logic of the app. It contains the set of instrunctions/functions that tells the web page what to show
+# when the user interact with the page.
 library(shiny)
 library(ggplot2)
 library(dplyr)
-bcl <- read.csv("bcl-data.csv", stringsAsFactors = FALSE)
-server <- function(input, output) {
-  output$countryOutput <- renderUI({
-    selectInput("countryInput", "Country",
-                sort(unique(bcl$Country)),
-                selected = "CANADA")
-  })  
+
+#writing server function
+
+shinyServer(function(input, output) {    
   
-  filtered <- reactive({
-    if (is.null(input$countryInput)) {
-      return(NULL)
-    }    
+  #referring output distPlot in ui.r as output$distPlot  
+  output$distPlot <- renderPlot({        
+  #referring input p in ui.r as input$p    
+  if(input$p=='a'){      
+    i<-1    
+  }        
     
-    bcl %>%
-      filter(Price >= input$priceInput[1],
-             Price <= input$priceInput[2],
-             Type == input$typeInput,
-             Country == input$countryInput
-      )
-  })
+  if(input$p=='b'){      
+    i<-2    
+  }        
   
-  output$coolplot <- renderPlot({
-    if (is.null(filtered())) {
-      return()
-    }
-    ggplot(filtered(), aes(Alcohol_Content)) +
-      geom_histogram()
-  })
+  if(input$p=='c'){      
+    i<-3    
+  }        
+    
+  if(input$p=='d'){      
+    i<-4    
+  }        
   
-  output$results <- renderTable({
-    filtered()
+  x    <- iris[, i]        
+    
+  #referring input bins in ui.r as input$bins    
+  bins <- seq(min(x), max(x), length.out = input$bins + 1)        
+    
+  #producing histogram as output    
+  hist(x, breaks = bins, col = 'darkgray', border = 'white')  
   })
-}
+})
