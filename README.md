@@ -3,8 +3,9 @@ This assignment is divided into FOUR major sections.
 1. Create Shiny App (using separate ui.R and SERVER.R files)
 2. Deploy the Shiny App on server.
 3. Create presentation (host on github or Rpubs) of 5 pages for the Shiny App.
-4. Steps to execute 
-1. Create Shiny App (using separate ui.R and SERVER.R files)
+ -- 4. Steps to execute
+
+## Create Shiny App (using separate ui.R and SERVER.R files)
    The shiny App named "iris" is created. The ui.R and SERVER.R files can be located at the below links provided -
    ui.R link -
    SERVER.R link - 
@@ -15,13 +16,13 @@ This assignment is divided into FOUR major sections.
    This dataset is also copied into Data/Iris.xlsx file in github.
    Data Source: For more details about the data set, please refer to the below sources - 
  https://en.wikipedia.org/wiki/Iris_flower_data_set    Fisher, R. A. (1936) The use of multiple measurements in taxonomic problems. Annals of Eugenics, 7, Part II, 179–188.  The data were collected by Anderson, Edgar (1935). The irises of the Gaspe Peninsula, Bulletin of the American Iris Society, 59, 2–5.
-   # About_Iris_dataset.md ends here
-2. Deploy the Shiny App on the server
+  -- # About_Iris_dataset.md ends here
+## Deploy the Shiny App on the server
    Here is the link for the application after it was deployed on the server.
    Link: 
-3. Presentation on Rpubs
+## Presentation on Rpubs
    Here is the link for the presentation host on Rpubs
    Link: <Make sure the link is http:// link not a https:// link.>
-4. Steps to execute - 
+## Steps to execute - 
    "How to do it" file in github. provide the detail steps to create and run the application and also to create the presentation
 <To do list>1. Create iris.xlsx file using the dataset of iris and copy it in github in Data folder.2. Remove Create a file named "About Iris Dataset.md" to include all details about the Iris Dataset.3. Add "How to do it" file in github4. Need to add the code for presentation? Where and how to get that code?5. Try changin the color in hist(x, breaks = bins, col = 'darkgray', border = 'white')  in SERVER.R file
