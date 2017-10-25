@@ -10,10 +10,9 @@ This assignment is divided into THREE major sections.
    
    ui.R link - https://github.com/dhirajdeshmukh/DDP_Shiny_Application_And_Reproducible_Pitch/blob/master/ui.R
    
-   server.R link - https://github.com/dhirajdeshmukh/DDP_Shiny_Application_And_Reproducible_Pitch/blob/master/server.R
-    
-   Dataset for Shiny App can be located at About_Iris_dataset.md file in github:        
+   server.R link - https://github.com/dhirajdeshmukh/DDP_Shiny_Application_And_Reproducible_Pitch/blob/master/server.R 
    
+   Dataset for Shiny App can be located at About_Iris_dataset.md file in github:        
    https://github.com/dhirajdeshmukh/DDP_Shiny_Application_And_Reproducible_Pitch/blob/master/About_Iris_dataset.md
    
 ## Deploy the Shiny App on the server
