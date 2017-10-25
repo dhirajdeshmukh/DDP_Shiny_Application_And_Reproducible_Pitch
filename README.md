@@ -20,7 +20,3 @@ This assignment is divided into THREE major sections.
    
 ## Presentation on Rpubs
    Presentation host on Rpubs: http://rpubs.com/dhirajdeshmukh/IrisHistogram
-   
-## Steps to execute - 
-   "How to do it" file in github. provide the detail steps to create and run the application and also to create the presentation
-<To do list>1. Create iris.xlsx file using the dataset of iris and copy it in github in Data folder.2. Remove Create a file named "About Iris Dataset.md" to include all details about the Iris Dataset.3. Add "How to do it" file in github4. Need to add the code for presentation? Where and how to get that code?5. Try changin the color in hist(x, breaks = bins, col = 'darkgray', border = 'white')  in SERVER.R file
