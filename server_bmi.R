@@ -53,7 +53,7 @@ shinyServer(function(input, output)
    )    
   output$graph <- renderText(
     {   
-      "<img style='width: 40em; margin-top: 1em' src='https://upload.wikimedia.org/wikipedia/commons/e/e9/Body_mass_index_chart.svg' title='Body mass index chart (Wikipedia)' />"    
+      "<img style='width: 40em; margin-top: 1em' src='https://cdn.vertex42.com/ExcelTemplates/Images/bmi-chart.gif' title='Body mass index chart for Adult' />"    
     }
   )  
 }
