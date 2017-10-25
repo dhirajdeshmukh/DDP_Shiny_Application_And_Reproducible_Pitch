@@ -23,7 +23,7 @@ Dataset for Shiny App: Please refer to About_Iris_dataset.md file in github to d
    Link: https://ddshmkh.shinyapps.io/irisapp/
 ## Presentation on Rpubs
    Here is the link for the presentation host on Rpubs
-   Link: <Make sure the link is http:// link not a https:// link.>
+      http://rpubs.com/dhirajdeshmukh/IrisHistogram
 ## Steps to execute - 
    "How to do it" file in github. provide the detail steps to create and run the application and also to create the presentation
 <To do list>1. Create iris.xlsx file using the dataset of iris and copy it in github in Data folder.2. Remove Create a file named "About Iris Dataset.md" to include all details about the Iris Dataset.3. Add "How to do it" file in github4. Need to add the code for presentation? Where and how to get that code?5. Try changin the color in hist(x, breaks = bins, col = 'darkgray', border = 'white')  in SERVER.R file
