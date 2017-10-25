@@ -1,5 +1,7 @@
 #ui.R
 library(shiny)
+library(ggplot2)
+library(dplyr)
 shinyUI(fluidPage(  
   titlePanel("Body Mass Index (BMI) Calculator"),  
   sidebarLayout(sidebarPanel(    
