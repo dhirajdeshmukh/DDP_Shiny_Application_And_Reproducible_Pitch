@@ -16,7 +16,7 @@ This assignment is divided into THREE major sections.
    https://github.com/dhirajdeshmukh/DDP_Shiny_Application_And_Reproducible_Pitch/blob/master/About_Iris_dataset.md
    
 ## Deploy the Shiny App on the server
-   Link for IrisApp after it was deployed on the server: https://ddshmkh.shinyapps.io/irisapp/
+   Link for IrisApp after it was deployed on the server: https://ddshmkh.shinyapps.io/irishistogramshinyapp/
    
 ## Presentation on Rpubs
    Presentation host on Rpubs: http://rpubs.com/dhirajdeshmukh/IrisHistogram
