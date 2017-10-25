@@ -9,11 +9,12 @@ To access the data, the datasets package needs to be loaded and run the followin
 ##### data(iris) 
 ##### summary(iris) 
 ##### head(iris)
-   
-This dataset is also copied into Data/Iris.xlsx file in github.
-   
-#### For more details about the data set, please refer to the below sources
- 1. https://en.wikipedia.org/wiki/Iris_flower_data_set     
- 2. Fisher, R. A. (1936) The use of multiple measurements in taxonomic problems. Annals of Eugenics, 7, Part II, 179–188. 
- 3. The irises of the Gaspe Peninsula, Bulletin of the American Iris Society, 59, 2–5.
 
+This dataset is also copied into Data/Iris.xlsx file in github.   
+#### For more details about the data set, please refer to the below sources
+
+ 1. https://en.wikipedia.org/wiki/Iris_flower_data_set     
+ 
+ 2. Fisher, R. A. (1936) The use of multiple measurements in taxonomic problems. Annals of Eugenics, 7, Part II, 179–188. 
+ 
+ 3. The irises of the Gaspe Peninsula, Bulletin of the American Iris Society, 59, 2–5.
