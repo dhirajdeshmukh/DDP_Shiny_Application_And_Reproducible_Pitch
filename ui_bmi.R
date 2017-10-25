@@ -9,14 +9,14 @@ shinyUI(fluidPage( 
     radioButtons(inputId  = "units",      
                  label    = "Units:",      
                  choices  = c("Metric (kg & m)" = 1, "Imperial (lb & in)" = 2),      
-                 selected = 1    
+                 selected = 2    
                 ),        
     numericInput(inputId = "mass",      
                  label = strong("Enter your weight:"),      
-                 value = 70),        
+                 value = 67),        
     numericInput(inputId = "height",      
                  label = strong("Enter your height:"),      
-                 value = 1.80,      
+                 value = 1.6,      
                  step  = 0.10)),        
                 mainPanel(uiOutput("input"),      
                           uiOutput("result"),      
