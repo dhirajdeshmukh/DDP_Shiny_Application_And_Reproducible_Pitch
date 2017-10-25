@@ -19,11 +19,9 @@ Dataset for Shiny App: Please refer to About_Iris_dataset.md file in github to d
  https://en.wikipedia.org/wiki/Iris_flower_data_set    Fisher, R. A. (1936) The use of multiple measurements in taxonomic problems. Annals of Eugenics, 7, Part II, 179–188.  The data were collected by Anderson, Edgar (1935). The irises of the Gaspe Peninsula, Bulletin of the American Iris Society, 59, 2–5.
   -- # About_Iris_dataset.md ends here
 ## Deploy the Shiny App on the server
-   Here is the link for the application after it was deployed on the server.
-   Link: https://ddshmkh.shinyapps.io/irisapp/
+   Link for IrisApp after it was deployed on the server: https://ddshmkh.shinyapps.io/irisapp/
 ## Presentation on Rpubs
-   Here is the link for the presentation host on Rpubs
-      http://rpubs.com/dhirajdeshmukh/IrisHistogram
+   Presentation host on Rpubs: http://rpubs.com/dhirajdeshmukh/IrisHistogram
 ## Steps to execute - 
    "How to do it" file in github. provide the detail steps to create and run the application and also to create the presentation
 <To do list>1. Create iris.xlsx file using the dataset of iris and copy it in github in Data folder.2. Remove Create a file named "About Iris Dataset.md" to include all details about the Iris Dataset.3. Add "How to do it" file in github4. Need to add the code for presentation? Where and how to get that code?5. Try changin the color in hist(x, breaks = bins, col = 'darkgray', border = 'white')  in SERVER.R file
